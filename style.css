@@ -13,7 +13,6 @@ body{
         top: 0;left: 0;
         width: 100%;
         padding: 30px 100px;
-        background: red;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -60,5 +59,16 @@ body{
                 }
             }
         }
+    }
+    >.parallax{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background: url('background.png') no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
     }
 }
